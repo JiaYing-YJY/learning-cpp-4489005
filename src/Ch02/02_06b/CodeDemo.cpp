@@ -6,7 +6,7 @@
 #include <string>
 #include <cstdint> //C code
 #define CAPACITY 5000 //find and replace (macro definitions)
-#define DEBUG
+#define DEBUG //Macros are not processed by compiler but preprocessor which is separate tool modifying code before compiler takes it over -> code compiled is not code written -> syntax error
 
 int main(){
     int32_t large = CAPACITY;
