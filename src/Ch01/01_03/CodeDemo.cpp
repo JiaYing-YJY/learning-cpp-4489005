@@ -6,10 +6,10 @@
 #include <string>
 
 int main(){
-    std::cout << "Please enter your name: " << std::flush;
+    std::cout << "Please enter your name: " << std::endl;
     std::string str;
     std::cin >> str; // cin only works for single words
-    std::cout << "Nice to meet you, " << str << "!" << std::endl;
+    std::cout << str;
 
     std::cout << std::endl << std::endl;
     return (0);
